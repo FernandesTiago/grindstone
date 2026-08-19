@@ -12,16 +12,17 @@ I'm building this to learn, so the code grows as I do. Expect it to be rough in 
 
 ## What it does so far
 
+* Gather coins (a temporary way to get some starting coins)
 * Chop trees to get logs and woodcutting XP
-* Burn those logs for firemaking XP
 * Buy an axe from a shop with coins
-* Save and load your progress
-* Offline progress: pick a skill, close the game, come back later and collect what you earned (capped at 24 hours)
 
 ## Planned
 
+* Save file
+* Offline grind
+* Better item functions
 * More trees and more axes, each with level requirements
-* More skills (fishing and cooking are next, they pair the same way woodcutting and firemaking do)
+* More skills (firemaking, fishing and cooking are next, they pair the same way woodcutting and firemaking do)
 * A proper interface built with Textual instead of plain text menus
 * A bank, so your inventory stops being the bottleneck
 * Combat, eventually, once the skilling side feels good
@@ -34,7 +35,7 @@ You need Python 3.11 or newer.
 ```
 git clone https://github.com/FernandesTiago/grindstone
 cd grindstone
-python main.py
+python game.py
 ```
 
 No dependencies yet. That will change once the Textual interface lands.
